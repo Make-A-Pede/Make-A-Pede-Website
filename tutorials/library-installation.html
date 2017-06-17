@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="" name="description">
+	<meta content="" name="keywords">
+	<title>Library Installation Tutorial</title>
+	<!--[if IE]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link href="../css/reset.min.css" rel="stylesheet" type="text/css">
+	<link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald:700|Poppins:500|Roboto" rel="stylesheet">
+	<link href="../img/MaP-Icon.ico" rel="shortcut icon" type="image/x-icon">
+	
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	
+	<!-- Presentation Files -->
+	  <link rel="stylesheet" media="screen" href="../deck.js-latest/core/deck.core.css">
+	  <!-- Extension CSS files go here. Remove or add as needed. -->
+	  <link rel="stylesheet" media="screen" href="../deck.js-latest/extensions/menu/deck.menu.css">
+	  <link rel="stylesheet" media="screen" href="../deck.js-latest/extensions/navigation/deck.navigation.css">
+	  <link rel="stylesheet" media="screen" href="../deck.js-latest/extensions/status/deck.status.css">
+	  <link rel="stylesheet" media="screen" href="../deck.js-latest/extensions/scale/deck.scale.css">
+	  <!-- Style theme. More available in /themes/style/ or create your own. -->
+	  <link rel="stylesheet" media="screen" href="../deck.js-latest/themes/style/makeapede.css">
+	  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+	  <link rel="stylesheet" media="screen" href="../deck.js-latest/themes/transition/horizontal-slide.css">
+	  <!-- Basic black and white print styles -->
+	  <link rel="stylesheet" media="print" href="../deck.js-latest/core/print.css">
+	  <!-- Required Modernizr file -->
+	  <script src="../deck.js-latest/modernizr.custom.js"></script>
+</head>
+
+<body>
+    <div class="deck-container">
+
+	    <!-- Begin slides. Just make elements with a class of slide. -->
+
+	    <section class="slide">
+	      <h1>Installing the Make-A-Pede Arduino Library</h1>
+	    </section>
+
+	    <section class="slide">
+		  <p></p>
+	      <img src="installation-screenshots/9.jpg" />
+		  <p>Download the library .zip file from the Plans page on makeapede.com and extract it.</p>
+	    </section>
+
+	    <section class="slide">
+		  <p></p>
+	      <img src="installation-screenshots/3.jpg" />
+		  <p>Open the “MakeAPede” folder and open “MakeAPede.ino” using the Arduino IDE.</p>
+	    </section>
+        
+        <section class="slide">
+		  <p></p>
+	      <img src="installation-screenshots/4.jpg" />
+		  <p>The project will open in the Arduino IDE. The main code will be under the “MakeAPede” tab.</p>
+	    </section>
+        
+        <section class="slide">
+		  <p></p>
+	      <img src="installation-screenshots/5.jpg" />
+		  <p>Go to the Tools->Board menu and open the Boards Manager.</p>
+	    </section>
+        
+        <section class="slide">
+		  <p></p>
+	      <img src="installation-screenshots/6.jpg" />
+		  <p>Search for and install the “Intel Curie Boards” package.</p>
+	    </section>
+        
+        <section class="slide">
+		  <p></p>
+	      <img src="installation-screenshots/7.jpg" />
+		  <p>Once the boards package is installed, select “Arduino/Genuino 101” from the Tools->Board menu.</p>
+	    </section>
+        
+        <section class="slide">
+		  <p></p>
+	      <img src="installation-screenshots/8.jpg" />
+		  <p>You can now click the upload button in the upper left corner to run the code on your robot.</p>
+	    </section>
+
+	    <!-- End slides. -->
+
+	    <!-- deck.navigation snippet -->
+	    <div aria-role="navigation">
+	      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+	      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+	    </div>
+
+	    <!-- deck.status snippet -->
+	    <p class="deck-status" aria-role="status">
+	      <span class="deck-status-current"></span>
+	      /
+	      <span class="deck-status-total"></span>
+	    </p>
+	</div>
+
+    <!-- Presentation JS files. -->
+	<script src="../deck.js-latest/core/deck.core.js"></script>
+	<!-- Extension JS files. Add or remove as needed. -->
+	<script src="../deck.js-latest/extensions/menu/deck.menu.js"></script>
+	<script src="../deck.js-latest/extensions/status/deck.status.js"></script>
+	<script src="../deck.js-latest/extensions/navigation/deck.navigation.js"></script>
+	<script src="../deck.js-latest/extensions/scale/deck.scale.js"></script>
+	<!-- Initialize the deck. You can put this in an external file if desired. -->
+	<script>
+	  $(function() {
+	    $.deck('.slide');
+	  });
+	</script>
+</body>
+</html>

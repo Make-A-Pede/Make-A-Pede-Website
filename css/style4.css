@@ -1,0 +1,766 @@
+html{
+	min-height: calc(100vh);
+}
+
+a{
+	color: inherit;
+	text-decoration: inherit;
+}
+
+b{
+	font-weight: bold;
+}
+
+body{
+	font-family: Roboto, sans-serif;
+	text-align: center;
+	color: #505050;
+}
+
+header{
+	color: #fff;
+}
+
+::-moz-selection {
+  background: #d0fa90;
+}
+
+::selection {
+  background: #d0fa90;
+}
+
+mark {
+  background-color: #d0fa90;
+}
+
+.accentColor1{
+	color: #91cf34;
+}
+
+.accentColor1bg {
+	background-color: #91cf34;
+	color: #fff;
+}
+
+.accentColor1hb{
+	border: 4px solid #91cf34 !important;
+	color: #91cf34 !important;
+}
+
+.accentColor2{
+	color: black/*#505050*/;
+}
+
+.accentColor2bg {
+	background-color: black/*#505050*/;
+	color: #fff;
+}
+
+.accentColor2hb{
+	border: 4px solid black/*#505050*/ !important;
+	color: black/*#505050*/ !important;
+}
+
+.accentBorders{
+	border-top: 4px solid black/*#505050*/;
+	border-bottom: 4px solid black/*#505050*/;
+}
+
+.accentColor3bg {
+	background-color: #e0e0e0;
+    color: #505050;
+}
+
+.accentColor4bg {
+	background-color: #ffffff;
+    color: #505050;
+}
+
+.fa{
+	cursor: pointer;
+}
+
+.iconLogo {
+    height: 75px;
+}
+
+/* Navigation Bar ------------------------------------------------------ */
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-height: 75px;
+	background-color: rgba(0,0,0,0.4);
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	z-index: 6;
+	overflow: hidden;
+}
+
+nav img{
+	margin-left: 15px;
+	float: left;
+}
+
+nav ul{
+	float: right;
+	font-size: 17px;
+	margin-right: 15px;
+}
+
+nav li{
+	padding: 29px 12px;
+	float: left;
+}
+
+nav i{
+	padding: 0 12px;
+	float: left;
+}
+
+#construction{
+    width: 100%;
+    position: fixed;
+    top: 75px;
+    left: 0;
+    padding: 15px;
+    background-color: #91cf34;
+    color: black;
+    font-size: 20px;
+    /*display: none;*/
+}
+
+#construction a{
+    text-decoration: underline;
+}
+
+/* Menu ------------------------------------------------------ */
+#menuClose{
+	display: none;
+}
+
+#mainMenu{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #505050/*#242424*/;
+	padding: 20px;
+	z-index: 5;
+	display: none;
+}
+
+#mainMenu .menuColumn{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#mainMenu .section{
+	display: block;
+	margin: 0 50px 30px 0;
+	line-height: 150%;
+	text-align: left;
+}
+
+#mainMenu h1 {
+	font-family: Poppins, sans-serif;
+	text-transform: uppercase;
+}
+
+#mainMenu li {
+	margin-left: 20px;
+}
+
+#mainMenu .note {
+    position: relative;
+	font-style: italic;
+	font-size: .8em;
+}
+
+/* Page Sections ------------------------------------------------------ */
+.page .section{
+	/* Full height */
+	min-height: 0;
+	/*min-height: fit-content;*/
+}
+
+#homePage .section{
+	/* Min height */
+	min-height: 0;
+	/*min-height: fit-content;*/
+}
+
+.parallax {
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+/* Page Section Content ------------------------------------------------------ */
+.page .section h1{
+	padding: 60px 0;
+	font-family: 'Oswald', serif;
+	font-size: 3.5em;
+	font-weight: bold;
+	letter-spacing: 4px;
+	line-height: 120%;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.page .section .h1map{
+	margin-bottom: 0;
+}
+
+.page .vc h1{
+	padding-bottom: 30px;
+	padding-top: calc(50vh - 200px);
+	font-size: 5em;
+	font-weight: bold;
+	letter-spacing: 4px;
+	margin-bottom: 0;
+}
+
+.page .section .pageLogo {
+    max-width: 800px;
+    padding: 0;
+    margin-top: 130px;
+    margin-bottom: 50vh /*510px*/;
+}
+
+.page .vc .pageLogo {
+    max-height: 280px;
+    max-width: 802.4px;
+    padding-bottom: 30px;
+	padding-top: calc(50vh - 220px);
+    margin-bottom: 0;
+}
+
+.page .section h2, .h2{
+	padding: 20px 0;
+	margin-bottom: 40px;
+	font-family: 'Oswald', serif;
+	font-size: 2em;
+	line-height: 120%;
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+.page .section h3, .h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2em;
+	line-height: 120%;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin: 0 20px 15px 20px;
+}
+
+.page .section h4, .h4 {
+	font-size: 1.2em;
+	line-height: 120%;
+	margin: 0 20px 15px 20px;
+}
+
+.page .section h5, .h5 {
+	font-weight: bold;
+	margin: 0 20px 15px 20px;
+}
+
+.page .section .sectionButton{
+	padding: 60px 0;
+	cursor: pointer;
+	margin: 0;
+}
+
+.page .section p {
+	line-height: 150%;
+	margin: 0 20px 15px 20px;
+	text-align:justify;
+}
+
+.page .section p a, .page .section table a, .page .section blockquote a {
+	text-decoration: underline;
+    color: #82b732;
+}
+
+.page .section .note {
+    line-height: 120%;
+	margin: 0 20px 20px 20px;
+	font-style: italic;
+	font-size: .8em;
+}
+
+.page .section span.note {
+    line-height: 120%;
+	margin: 0 5px;
+	font-style: italic;
+	font-size: .8em;
+}
+
+.page .section blockquote {
+	line-height: 120%;
+	margin: 0 20px 20px 20px;
+	font-style: italic;
+	font-size: 1.1em;
+}
+
+.page .section ul {
+	list-style-type: square;
+	margin: 0 20px 15px 20px;
+	padding-left: 1.25em;
+	text-align: left;
+}
+
+.page .section ol {
+	list-style-type: decimal;
+	margin: 0 20px 15px 20px;
+	padding-left: 1.25em;
+	text-align: left;
+}
+
+.page .section li ul {
+	list-style-type: circle;
+	margin-top: 10px;
+    padding-left: 1.25em;
+}
+
+.page .section li {
+	line-height: 120%;
+	margin: 0 0 .5em 0;
+}
+
+.page .section img {
+	margin: 0 20px 15px 20px;
+	width: 95%;
+}
+
+.page .section .imgTile {
+	margin: 0 20px 20px 20px;
+	width: 15%;
+	min-width: 175px;
+	display: inline-block;
+}
+
+.page .section .tileSet {
+    display: table;
+    float: right;
+}
+
+.page .section .tile {
+	padding: 0 15px;
+	height: 100px;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.page .section .tile .price {
+	font-size: 1.25em;
+    font-weight: bold;
+}
+
+.page .section .tile img {
+	height: 100px;
+    width: 100px;
+}
+
+.page .section .imgTileS {
+	margin: 0 10px 20px 10px;
+	width: 15%;
+	min-width: 100px;
+	display: inline-block;
+}
+
+.page .section .lgIcon{
+	font-size: 3em;
+    margin: 0 20px 15px 20px;
+    cursor: default;
+}
+
+.page .section hr{
+	width: 90%;
+	border: 1px solid #505050;
+    text-align: center;
+	margin: 8px auto !important;
+}
+
+.playlist {
+	width: 90%;
+    height: 35vh;
+}
+
+.addon{
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+}
+
+.forum {
+	width: 100%;
+    height: calc(100vh - 75px);
+    margin: 75px 0 0 0;
+}
+
+#blogframe{
+    width: calc(100vw);
+    height: calc(100vh + 20px);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: 1;
+}
+
+.formframe{
+    width: calc(100vw);
+    height: calc(100vh - 75px);
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 1;
+}
+
+.imgTile * {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.navbarSpacer{
+	height: 75px;
+}
+
+.navbarBack{
+	height: 75px;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 2;
+}
+
+.page .section table {
+    width: 100%;
+    border: 2px solid #505050;
+}
+
+.page .section th {
+    padding: 10px;
+    border-bottom: 2px solid #505050;
+    font-size: 1.2em;
+	line-height: 120%;
+    background-color: #e0e0e0;
+    vertical-align: middle;
+}
+
+.page .section td {
+    padding: 10px;
+}
+
+.kickstarterFrame{
+    width: 90%;
+    height: 65vh;
+}
+
+#bomTable1 tr td:nth-child(1) {
+    width: 2%;
+    text-align: left;
+}
+
+#bomTable1 tr td:nth-child(2) {
+    text-align: left;
+}
+
+#bomTable1 tr td:nth-child(3) {
+    width: 10%;
+}
+
+#bomTable1 tr td:nth-child(4) {
+    width: 20%;
+}
+
+#bomTable1 tr td:nth-child(5) {
+    width: 10%;
+}
+
+/* Page Section Columns ------------------------------------------------------ */
+.halfSection{
+	width: 50%;
+	display: inline-block;
+	/*border: 1px dotted red;*/
+	vertical-align:top;
+	margin: 0 0 20px 0;
+}
+
+.thirdSection{
+	width: 33.33%;
+	display: inline-block;
+	/*border: 1px dotted red;*/
+	vertical-align:top;
+	margin: 0 0 20px 0;
+}
+
+.quarterSection{
+	width: 25%;
+	display: inline-block;
+	/*border: 1px dotted red;*/
+	vertical-align:top;
+	margin: 0 0 20px 0;
+}
+
+.wSection{
+	width: 100%;
+	display: inline-block;
+	/*border: 1px dotted red;*/
+	vertical-align:top;
+	margin: 0 0 20px 0;
+}
+
+.nSection{
+	width: 90%;
+	display: inline-block;
+	/*border: 1px dotted red;*/
+	vertical-align:top;
+	margin: 0 0 20px 0;
+}
+
+.nSection * {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.frSection{
+	width: auto;
+	display: inline-block;
+	/*border: 1px dotted red;*/
+	vertical-align:top;
+	margin: 0  20px 20px 40px;
+    float: right;
+}
+
+.flSection{
+	width: auto;
+	display: inline-block;
+	/*border: 1px dotted red;*/
+	vertical-align:top;
+	margin: 0  40px 20px 20px;
+    float: left;
+}
+
+.nSection .halfSection, .nSection .thirdSection, .nSection .quarterSection{
+	margin: 0;
+}
+
+.page .vc .halfSection, .page .vc .thirdSection, .page .vc .quarterSection{
+	margin: 0;
+}
+
+/* Lightbox ------------------------------------------------------ */
+.lightbox{
+	display: none;
+	width: 90vw;
+	height: 0;
+	margin: 50vh 0;
+	position: fixed;
+	top: 0;
+	left: 5vw;
+	overflow: auto;
+	z-index: 4;
+}
+
+.lightboxClose{
+	float: right;
+	font-size:20px !important;
+	margin: 10px 10px 0 0;
+}
+
+.lightbox .nSection {
+	text-align: left;
+}
+
+.lightbox img {
+	width: 175px !important;
+	float: left;
+	margin: 0 20px 15px 0 !important;
+}
+
+#lightboxBack{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	background-color: rgba(0,0,0,0.8);
+	display: none;
+	cursor: default;
+}
+
+/* Spacers and Buttons ------------------------------------------------------ */
+.spacer{
+	height: 40px;
+}
+
+.spacer2{
+	height: 20px;
+}
+
+.rightAlign{
+	text-align: right !important;
+}
+
+.leftAlign{
+	text-align: left !important;
+}
+
+.clearBoth{
+	clear: both !important;
+}
+
+.buttons{
+	width: 100%;
+	text-align: center;
+}
+
+.button{
+	display: inline-block;
+	border: 4px solid white;
+	border-radius: 2px;
+	padding: 12px;
+	margin: 12px;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.buttonD{
+	display: inline-block;
+	border: 4px solid #505050;
+	border-radius: 2px;
+	padding: 12px;
+	margin: 12px;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+	color: #505050;
+	text-transform: uppercase;
+}
+
+/* Background Images ------------------------------------------------------ */
+.homeBanner{background-image: url('../img/render3.jpg');}
+.stdBanner{background-image: url('../img/render3.jpg');}
+
+/* Floating Footer ------------------------------------------------------ */
+.floatingFooter{
+	width: 100%;
+	max-height: 57px;
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	-webkit-user-select: none;
+	display: none;
+	color: #fff;
+	overflow: auto;
+	z-index: 2;
+}
+
+.floatingFooter ul{
+	font-size: 17px;
+	display: inline-block;
+}
+
+.floatingFooter li{
+	padding: 20px 40px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.floatingFooter i{
+	padding: 20px 60px;
+	display: inline-block;
+	cursor: pointer;
+	float: right;
+}
+
+#homepageFooter{
+	display: initial;
+}
+
+/* Footer ------------------------------------------------------ */
+footer{
+	padding: 10px 20px;
+	-webkit-user-select: none;
+    /*box-shadow: 0 -2px 5px rgba(0,0,0,0.26);*/
+}
+
+#footerIcons i{
+	padding: 10px;
+	font-size: 2em;
+}
+
+#leftFooter{
+	padding: 10px 10px 30px 10px;
+	float: left;
+}
+
+#rightFooter{
+	padding: 10px 10px 30px 10px;
+	float: right;
+}
+
+footer a{
+    text-decoration: underline;
+}
+
+/* ^^ Desktop ^^ ------------------------------------------------------ */
+
+/*Tablet*/
+@media only screen and (max-width: 1024px) {
+	header{
+		padding-left: 10px;
+	}
+    
+    .halfSection{
+        width: 100%;
+    }
+
+    .thirdSection{
+        width: 100%;
+    }
+
+    .quarterSection{
+        width: 100%;
+    }
+    
+    .rightAlign{
+        text-align: center;
+    }
+
+    .leftAlign{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .quickLink{
+        display: none;
+    }
+}
+
+/*Phone - Landscape*/
+@media only screen and (max-width: 600px){
+    
+}
+
+/*Phone - Portrait*/
+@media only screen and (max-width: 480px) {
+	
+}
+
+
