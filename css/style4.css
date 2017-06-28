@@ -616,6 +616,10 @@ nav i{
 	text-align: left !important;
 }
 
+.centerAlign{
+	text-align: center!important;
+}
+
 .clearBoth{
 	clear: both !important;
 }

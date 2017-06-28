@@ -20,6 +20,7 @@
 	<script src="../js/jquery.ba-hashchange.min.js"></script>
 	<script src="../js/mail.min.js"></script>
 	<script src="../js/main.js"></script>
+    <script src="../js/downloadTracking.js"></script>
 </head>
 
 <body>
@@ -343,120 +344,14 @@
                 CAD Files
             </h1>
 
-            <div class="thirdSection">
-                <h3>Assembly Models</h3>
-                <p>Use these files to design your own modules and accessories for the Make-A-Pede.</p>
-                <hr>
-                <h4>Full Robot</h4>
+            <div class="halfSection">
+                <!--h3>CAD Files</h3-->
                 <div class="buttons">
-                    <a href="files/MaP-Assembly%20v12.step" target="_blank"><div class="buttonD">STEP File</div></a>
-                    <a href="files/MaP-Assembly%20v12.iges" target="_blank"><div class="buttonD">IGES File</div></a>
+                    <a href="https://github.com/Make-A-Pede/Make-A-Pede-CAD" target="_blank"><div class="buttonD">View Github Repository</div></a>
                 </div>
-                <hr>
-
-                <h4>Segment</h4>
-                <div class="buttons">
-                    <a href="files/MaP-Segment%20v2.step" target="_blank"><div class="buttonD">STEP File</div></a>
-                    <a href="files/MaP-Segment%20v2.iges" target="_blank"><div class="buttonD">IGES File</div></a>
-                    <a href="files/MaP-Segment%20v2.f3d" target="_blank"><div class="buttonD">Fusion 360 File</div></a>
-                </div>
-                <hr>
-                <div class="spacer">&nbsp;</div>
-
-                <h3>Vinyl Cutter Files</h3>
-                <p>Use these files to design your own segment stickers for the Make-A-Pede.</p>
-                <hr>
-                <h4>Sticker Templates</h4>
-                <div class="buttons">
-                    <a href="files/stickers/MaP-Vinyl-Skin-Template.pdf" target="_blank"><div class="buttonD">PDF File</div></a>
-                    <a href="files/stickers/MaP-Vinyl-Skin-Template.zip" target="_blank"><div class="buttonD">File Package<span class="note">(PDF, CDR, STUDIO3, DXF, SVG, and EPS)</span></div></a>
-                </div>
-                <hr>
-                <div class="spacer">&nbsp;</div>
-            </div><div class="thirdSection">
-                <h3>Laser Cutter Files</h3>
-                <p>Use these files to cut the segment components for your Make-A-Pede</p>
-                <hr>
-
-                <h4>12"x12" Layout (2 sheets)</h4>
-                <p>This layout is best for making a two-color Make-A-Pede</p>
-                <div class="buttons">
-                    <a href="files/12x12-layout.pdf" target="_blank"><div class="buttonD">PDF File</div></a>
-                    <a href="files/12x12-layout.zip" target="_blank"><div class="buttonD">File Package<span class="note">(PDF, CDR, DXF, SVG, and EPS)</span></div></a>
-                </div>
-                <hr>
-
-                <h4>12"x24" Layout (1 sheet)</h4>
-                <p>This layout is best for making a single color Make-A-Pede.</p>
-                <div class="buttons">
-                    <a href="files/12x24-layout.pdf"><div class="buttonD">PDF File</div></a>
-                    <a href="files/12x24-layout.zip"><div class="buttonD">File Package<span class="note">(PDF, CDR, DXF, SVG, and EPS)</span></div></a>
-                </div>
-                <hr>
-
-                <h4>24"x24" Layout (1 sheet)</h4>
-                <p>This layout contains parts for building 3 Make-A-Pedes.</p>
-                <div class="buttons">
-                    <a href="files/24x24-layout.pdf" target="_blank"><div class="buttonD">PDF File</div></a>
-                    <a href="files/24x24-layout.zip" target="_blank"><div class="buttonD">File Package<span class="note">(PDF, CDR, DXF, SVG, and EPS)</span></div></a>
-                </div>
-                <hr>
-                <div class="spacer">&nbsp;</div>
-            </div><div class="thirdSection">
-                <h3>3D Printer Files</h3>
-                <p>Use these files to make the 3D printed components of your Make-A-Pede.</p>
-                <hr>
-                <h4>Fixed Ultrasonic Sensor Mount</h4>
-                <div class="buttons">
-                    <a href="files/MaP-US-Mount%20v1.stl" target="_blank"><div class="buttonD">STL File</div></a>
-                    <a href="files/MaP-US-Mount%20v1.step" target="_blank"><div class="buttonD">STEP File</div></a>
-                    <a href="files/MaP-US-Mount%20v1.iges" target="_blank"><div class="buttonD">IGES File</div></a>
-                </div>
-                <hr>
-            
-                <h4>Adjustable Ultrasonic Sensor Mount</h4>
-                <div class="buttons">
-                    <a href="files/MaP-Front-Sensor-Mount%20v13.stl" target="_blank"><div class="buttonD">STL File</div></a>
-                    <a href="files/MaP-Front-Sensor-Mount%20v13.step" target="_blank"><div class="buttonD">STEP File</div></a>
-                    <a href="files/MaP-Front-Sensor-Mount%20v13.iges" target="_blank"><div class="buttonD">IGES File</div></a>
-                </div>
-                <hr>
-
-                <h4>9V Battery Holder</h4>
-                <div class="buttons">
-                    <a href="files/MaP-9V-Holder%20v10.stl" target="_blank"><div class="buttonD">STL File</div></a>
-                    <a href="files/MaP-9V-Holder%20v10.step" target="_blank"><div class="buttonD">STEP File</div></a>
-                    <a href="files/MaP-9V-Holder%20v10.iges" target="_blank"><div class="buttonD">IGES File</div></a>
-                </div>
-                <hr>
-
-                <h4>Arduino Module</h4>
-                <div class="buttons">
-                    <a href="files/Map-UNO-Adapter%20v1.stl" target="_blank"><div class="buttonD">STL File</div></a>
-                    <a href="files/Map-UNO-Adapter%20v1.step" target="_blank"><div class="buttonD">STEP File</div></a>
-                    <a href="files/Map-UNO-Adapter%20v1.iges" target="_blank"><div class="buttonD">IGES File</div></a>
-                </div>
-                <hr>
-
-                <h4>Motor Driver Module</h4>
-                <div class="buttons">
-                    <a href="files/MaP-MDD10A-Adapter%20v1.stl" target="_blank"><div class="buttonD">STL File</div></a>
-                    <a href="files/MaP-MDD10A-Adapter%20v1.step" target="_blank"><div class="buttonD">STEP File</div></a>
-                    <a href="files/MaP-MDD10A-Adapter%20v1.iges" target="_blank"><div class="buttonD">IGES File</div></a>
-                </div>
-                <hr>
-            
-                <h4>Non-Motorized Segment Roller</h4>
-                <div class="buttons">
-                    <a href="files/MaP-Segment-Roller%20v19.stl" target="_blank"><div class="buttonD">STL File</div></a>
-                    <a href="files/MaP-Segment-Roller%20v19.step" target="_blank"><div class="buttonD">STEP File</div></a>
-                    <a href="files/MaP-Segment-Roller%20v19.iges" target="_blank"><div class="buttonD">IGES File</div></a>
-                </div>
-                <hr>
-                <div class="spacer">&nbsp;</div>
-            </div>
-
-            <div class="nSection">
+                <div class="spacer2">&nbsp;</div>
+                <div class="github-card" data-user="Make-A-Pede" data-repo="Make-A-Pede-CAD"></div>
+            </div><div class="halfSection">
                 <iframe src="https://clara.io/embed/a10a09c0-914a-4459-ae3a-2f24ea68d4bf?renderer=webgl" class="addon" allowfullscreen>The 3D viewer plugin is not supported by your browser.</iframe>
             </div>
             <div class="spacer">&nbsp;</div>

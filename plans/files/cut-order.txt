@@ -1,7 +1,0 @@
-Cut order:
-
-1. Green - Engrave
-2. Yellow - Engrave
-3. Black - Cut
-4. Red - Cut
-5. Blue - Cut
