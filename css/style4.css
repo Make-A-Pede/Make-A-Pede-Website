@@ -128,7 +128,7 @@ nav i{
     background-color: #91cf34;
     color: black;
     font-size: 20px;
-    /*display: none;*/
+    display: none;
 }
 
 #construction a{
@@ -242,7 +242,7 @@ nav i{
 
 .page .section h2, .h2{
 	padding: 20px 0;
-	margin-bottom: 40px;
+	margin-bottom: 10px/*40px*/;
 	font-family: 'Oswald', serif;
 	font-size: 2em;
 	line-height: 120%;
@@ -379,6 +379,7 @@ nav i{
 	font-size: 3em;
     margin: 0 20px 15px 20px;
     cursor: default;
+    width: 30%;
 }
 
 .page .section hr{

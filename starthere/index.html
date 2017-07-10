@@ -36,7 +36,7 @@
 			<div class="navbarSpacer">&nbsp;</div>
 			<div class="menuColumn">
 				<div class="section">
-					<a href="../index.html#1"><h1>Home</h1></a>
+					<a href="../index.html"><h1>Home</h1></a>
 					<ul>
 						<li><a href="../index.html#2">About</a></li>
 						<li><a href="../index.html#3">Why</a></li>
@@ -45,7 +45,7 @@
 					</ul>
 				</div>
                 <div class="section">
-                    <a href="../tutorials/index.html#1"><h1>Tutorials</h1></a>
+                    <a href="../tutorials/index.html"><h1>Tutorials</h1></a>
 					<ul>
 						<li><a href="../tutorials/index.html#1">Building</a></li>
 						<li><a href="../tutorials/index.html#2">Programming</a></li>
@@ -55,7 +55,7 @@
 			</div>
 			<div class="menuColumn">
 				<div class="section">
-					<a href="../starthere/index.html#1"><h1>Start Here</h1></a>
+					<a href="../starthere/index.html"><h1>Start Here</h1></a>
 					<ul>
 						<li><a href="../starthere/index.html#1">Get the Parts</a></li>
 						<li><a href="../starthere/index.html#2">Build the Chassis</a></li>
@@ -76,7 +76,7 @@
 			</div>
 			<div class="menuColumn">
 				<div class="section">
-                    <a href="../plans/index.html#1"><h1>Plans</h1></a>
+                    <a href="../plans/index.html"><h1>Plans</h1></a>
 					<ul>
 						<li><a href="../plans/index.html#1">Bill of Materials</a></li>
 						<li><a href="../plans/index.html#2">CAD Files</a></li>
@@ -111,22 +111,84 @@
 				</li>
 			</ul>
 		</nav>
-        <div id="construction"> Our Kickstarter campaign is now live at <a href="https://www.kickstarter.com/projects/automata-development/make-a-pede-a-centipede-robot-for-makers-and-stem?ref=9vfcib" target="_blank">kck.st/2t3z05Q</a>!</div>
+        <div id="construction">&nbsp;</div>
 	</header>
 
 	<a href="javascript:showLightbox(null);"><div id="lightboxBack">&nbsp;</div></a>
 
     <div class="page">
+        <div id="s0" class="section accentColor4bg">
+            <h1 class="stdBanner parallax">
+                <div class="navbarSpacer">&nbsp;</div>
+                Introduction
+            </h1>
+            <h2>Segments</h2>
+            <p class="centerAlign">
+                The primary component of the Make-A-Pede is the segment. There are two types of segments: head segments and body segments. The head segment is driven by a pair of DC motors with rubber rollers and has a 6xAA battery holder, a 9V battery holder, two antenna sensors, and two forward sensor mounting points (for distance sensors, cameras, display screens, etc.).
+            </p>
+            <div class="thirdSection">
+                <img src="img/headsegment.jpg"/>
+                <blockquote>Head Segment</blockquote>
+            </div><div class="thirdSection">
+                <img src="img/sensormounting.jpg"/>
+                <blockquote style="margin-bottom:0;">Sensor Mounting Points</blockquote>
+                <blockquote>(Designed to also fit 0.96" OLED displays)</blockquote>
+            </div>
+            <p class="centerAlign">
+                Body segments can either be driven by a pair of DC motors with rubber rollers, or fitted with a pair of passive, non-motorized rollers. Each body segment has 4 mounting holes in a 50mm square that can be used to attach one module.
+            </p>
+            <div class="thirdSection">
+                <img src="img/IMG_20170526_203523421_HDR_edited.jpeg"/>
+                <blockquote>Segment With Motors</blockquote>
+            </div><div class="thirdSection">
+                <img src="img/IMG_20170526_203459872_edited.jpg"/>
+                <blockquote style="margin-bottom:0;">Segment With Rollers</blockquote>
+            </div>
+            <div class="spacer">&nbsp;</div>
+            
+            <h2>Modules</h2>
+            <p class="centerAlign">
+                Modules connect to the top of segments using the 4 mounting holes and can consist of a variety of different mechanical or electrical components.
+            </p>
+            <div class="thirdSection">
+                <img src="img/IMG_20170531_193209461_edited.jpg"/>
+                <blockquote>Arduino Module</blockquote>
+            </div><div class="thirdSection">
+                <img src="img/IMG_20170531_201020182_edited.jpg"/>
+                <blockquote style="margin-bottom:0;">Motor Controller Module</blockquote>
+            </div>
+            
+            <h2>Constructing A Complete Robot</h2>
+            <p class="centerAlign">
+                Building a Make-A-Pede requires a minimum of three segments: a head segment, a body segment with a microcontroller module, and a body segment with a motor controller module. The standard kit also includes a segment with a mini breadboard and an empty segment. More segments can be added to give space for more modules.
+            </p>
+            <div class="halfSection">
+                <img src="img/construction2.jpg"/>
+            </div>
+            
+            <h2>The Software</h2>
+            <p class="centerAlign">
+                All of the Make-A-Pede’s features can be easily programmed using the Arduino IDE and the Make-A-Pede programming library. An Android smartphone app allows the robot to be remote controlled via the Arduino 101's built in Bluetooth LE. The app will be expanded with more features in the future, and an iOS version is coming soon. All Make-A-Pede software can be found on <a href="https://github.com/Make-APede" target="_blank">Github</a>.
+            </p>
+            <div class="halfSection">
+                <img src="img/app.jpg"/>
+            </div>
+            <div class="spacer">&nbsp;</div>
+        </div>
+        
         <div id="s1" class="section accentColor4bg">
             <h1 class="stdBanner parallax">
                 <div class="navbarSpacer">&nbsp;</div>
                 Get the Parts
             </h1>
             <p>
-                Please visit our <a href="../plans/index.html">Plans page</a> for a complete list of the components needed to build your Make-A-Pede.
+                There are two ways you can get the parts to build your Make-A-Pede:
             </p>
             <p>
-                <mark>More information coming soon!</mark>
+                Since the Make-A-Pede is completely open-source, you can find or buy all of the off-the-shelf components and make your own laser cut and 3D printed parts.  Our <a href="../plans/index.html">Plans page</a> has a complete list of the components needed and the files for laser cutting 3D printing.  We are currently working on adding a list of sources so that parts can be found very easily.
+            </p>
+            <p>
+                For those looking to get started quickly and easily, we will be offering full kits and various Make-A-Pede components soon on our <a href="../store/index.html">Store</a>.
             </p>
             <div class="spacer">&nbsp;</div>
         </div>
@@ -151,7 +213,7 @@
                 <div class="navbarSpacer">&nbsp;</div>
                 Wire The Electronics
             </h1>
-            <p>
+            <p class="centerAlign">
                 <mark>Tutorial coming soon!</mark>
             </p>
             <div class="spacer">&nbsp;</div>
