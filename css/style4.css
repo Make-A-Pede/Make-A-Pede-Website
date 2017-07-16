@@ -392,6 +392,17 @@ nav i{
 .playlist {
 	width: 90%;
     height: 35vh;
+    border: 2px solid #505050;
+}
+
+.playlistTall {
+	width: 90%;
+    height: 70vh;
+    border: 2px solid #505050;
+}
+
+embed{
+    
 }
 
 .addon{
@@ -498,6 +509,14 @@ nav i{
 
 .thirdSection{
 	width: 33.33%;
+	display: inline-block;
+	/*border: 1px dotted red;*/
+	vertical-align:top;
+	margin: 0 0 20px 0;
+}
+
+.twothirdSection{
+	width: 66.66%;
 	display: inline-block;
 	/*border: 1px dotted red;*/
 	vertical-align:top;
@@ -709,6 +728,20 @@ footer{
 	font-size: 2em;
 }
 
+.socialIcons i{
+	padding: 10px 30px;
+	font-size: 3em;
+}
+
+.socialIcons img{
+	margin: 0 !important;
+    padding: 10px 30px;
+	height: 3em;
+    width: 3em !important;
+    position: relative;
+    top: 1em;
+}
+
 #leftFooter{
 	padding: 10px 10px 30px 10px;
 	float: left;
@@ -738,6 +771,10 @@ footer a{
     .thirdSection{
         width: 100%;
     }
+    
+    .twothirdSection{
+        width: 100%;
+    }
 
     .quarterSection{
         width: 100%;
@@ -749,6 +786,10 @@ footer a{
 
     .leftAlign{
         text-align: center;
+    }
+    
+    .collapse{
+        display: none;
     }
 }
 
