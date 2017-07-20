@@ -339,6 +339,11 @@ nav i{
 	width: 95%;
 }
 
+.page .section .projectImg {
+	margin: 0;
+	width: 95%;
+}
+
 .page .section .imgTile {
 	margin: 0 20px 20px 20px;
 	width: 15%;
