@@ -407,7 +407,7 @@ nav i{
 }
 
 embed{
-    
+
 }
 
 .addon{
@@ -654,6 +654,21 @@ embed{
 	text-align: center;
 }
 
+.difficulty{
+	width: 100%;
+	margin: 10px 0 15px 0;
+	text-align: center;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+}
+
+.page .section .difficultyDot{
+	width: .75em;
+	display: inline-block;
+	margin: 0 1px;
+}
+
 .button{
 	display: inline-block;
 	border: 4px solid white;
@@ -768,7 +783,7 @@ footer a{
 	header{
 		padding-left: 10px;
 	}
-    
+
     .halfSection{
         width: 100%;
     }
@@ -776,7 +791,7 @@ footer a{
     .thirdSection{
         width: 100%;
     }
-    
+
     .twothirdSection{
         width: 100%;
     }
@@ -784,7 +799,7 @@ footer a{
     .quarterSection{
         width: 100%;
     }
-    
+
     .rightAlign{
         text-align: center;
     }
@@ -792,7 +807,7 @@ footer a{
     .leftAlign{
         text-align: center;
     }
-    
+
     .collapse{
         display: none;
     }
@@ -806,12 +821,10 @@ footer a{
 
 /*Phone - Landscape*/
 @media only screen and (max-width: 600px){
-    
+
 }
 
 /*Phone - Portrait*/
 @media only screen and (max-width: 480px) {
-	
+
 }
-
-
