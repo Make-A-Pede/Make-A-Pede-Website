@@ -283,7 +283,7 @@ nav i{
 	text-align:justify;
 }
 
-.page .section p a, .page .section table a, .page .section blockquote a {
+.page .section p a, .page .section table a, .page .section blockquote a, ol a{
 	text-decoration: underline;
     color: #82b732;
 }
